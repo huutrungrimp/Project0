@@ -7,10 +7,10 @@ body, html{
     margin: 5 0 5 0;
 }
 .container{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .navbar .navbar-brand{
-    margin-left: 50px;
+    margin-left: 0px;
     color : rgb(82, 16, 236);
     font-weight: bolder;
     font-size: 25px;
