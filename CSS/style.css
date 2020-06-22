@@ -2,33 +2,59 @@ body, html{
     height: 100%;
     width: 100%;
 }
-.navbar{
-    background-color: aquamarine!important;
-    margin: 5 0 5 0;
+.navbar{    
+    background-image: url(../img/Buffalo.JPG);
+    height: 100px;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
-.container{
-    margin-left: 0px;
+.navbar-brand{
+    color: rgb(81, 9, 250) !important;
+    font-family: 'Niconne';
+    font-size: 50px;    
 }
 .navbar .navbar-brand{
     margin-left: 0px;
-    color : rgb(82, 16, 236);
     font-weight: bolder;
     font-size: 25px;
 }
+.navbar-brand p{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
 .navbar-nav{
-    color: rgb(82, 21, 226);
     font-weight: bold;
     font-size: 25px;
+    margin-left: 105px;
 }
-
+nav .navbar-nav li a{
+    color: rgb(35, 75, 8) !important;
+    margin-left: 0px;
+}
+.container-fluid{
+    margin-top: 100px;
+    height: auto;
+}
 h1{
     font-size: larger;
     margin: 20px 0 20px 0;
+}
+.leftpanel{
+    width: 20%;
+    float: left;
 }
 img{    
     height: auto;
     width: 100%;
     object-fit: cover;
+}
+.rightpanel{    
+    width: 80%;
+    padding: 5px;
+    float: right;
 }
 table{
     height: auto;
@@ -38,9 +64,17 @@ table{
 #envTable th{
     border-bottom: 2px solid black;
 }
+
 caption{
     caption-side: top;
     color: black;
     font-size: 14px;
     font-weight: bold;
 }
+.footer{
+    margin-bottom: 0px;
+    background-color: rgb(243, 250, 252);
+    height: 30px;
+    text-align: center;
+}
+
