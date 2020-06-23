@@ -11,14 +11,11 @@ body, html{
     right: 0;
 }
 .navbar-brand{
-    color: rgb(81, 9, 250) !important;
-    font-family: 'Niconne';
-    font-size: 50px;    
-}
-.navbar .navbar-brand{
     margin-left: 0px;
+    font-family: 'Niconne';
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 27px;
+    color: rgb(81, 9, 250) !important;
 }
 .navbar-brand p{
     margin: 0;
@@ -76,5 +73,25 @@ caption{
     background-color: rgb(243, 250, 252);
     height: 30px;
     text-align: center;
+}
+@media only screen and (max-width: 600px){    
+    nav .navbar-nav li a{
+        padding: 0px;
+        font-size: 15px!important;    
+    }
+    .navbar-nav{             
+        position:absolute;
+        top:10px;
+        right:100px;
+    }
+    .leftpanel{
+        display: none;
+    }
+    .rightpanel{
+        width: 100%;
+    }
+    .mb-4{
+        margin-top: 20%;
+    }    
 }
 
